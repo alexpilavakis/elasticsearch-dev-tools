@@ -33,7 +33,7 @@ class Connection
      */
     public function __construct(array $config = null)
     {
-        $config = $config ?? config('elasticsearch-dev-tools.connection_config');
+        $config = $config ?? config('elasticsearch-dev-tools.config');
         $this->elastic = $this->buildClient($config);
     }
 

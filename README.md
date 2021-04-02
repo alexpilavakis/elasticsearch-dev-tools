@@ -37,7 +37,7 @@ $app->register(Ulex\ElasticsearchDevTools\ElasticsearchDevToolsServiceProvider::
 
 If config file `elasticsearch-dev-tools.php` was not published copy it to config folder with:
 ```
-cp vendor/ulex/eelasticsearch-dev-tools/config/elasticsearch-dev-tools.php config/elasticsearch-dev-tools.php
+cp vendor/ulex/elasticsearch-dev-tools/config/elasticsearch-dev-tools.php config/elasticsearch-dev-tools.php
 ```
 
 # Usage

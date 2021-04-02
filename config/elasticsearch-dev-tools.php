@@ -14,7 +14,7 @@ return [
     */
 
     'config' => [
-        'hosts' => ['localhost:9200'],
+        'hosts' => explode(',', env('ELASTICSEARCH_HOSTS', 'localhost:9200')),
         'retries' => 3,
     ]
 
